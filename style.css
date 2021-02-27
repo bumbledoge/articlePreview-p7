@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+h1, h2, h3 {
+    line-height: 1.5;
+}
+
+body {
+    background-color: hsl(217, 19%, 35%);
+    font-family: 'Manrope', sans-serif;
+}
+
+#tot {
+    box-shadow: 0px 0px 20px rgb(46, 46, 46);
+    background-color: white;
+    border-radius: 16px; 
+    margin: auto;
+    overflow: hidden;
+    width: 30%;
+    height: 600px;
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* ////////////////THUMBNAIL///////////////   */
+.thumbnail {
+    position: relative;
+    top: -20px;
+    overflow: hidden;
+    height: 250px;
+}
+.thumbnail img{
+    max-width: 100%;
+    transform: scale(1.1);
+
+    transition: transform 400ms;
+}
+.thumbnail img:hover{
+    transform: scale(1);
+}
+
+/* ///////////////////DESCRIPTION///////////////  */
+.description {
+    position: relative;
+    /* top: 125px; */
+    margin: 0px 30px;
+    margin-bottom: 10px;
+}
+.title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.articlePreview {
+    font-size: 15px;
+}
+/* //////BOTTOM PART//////////  */
+.useless {
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: left;
+    
+    position: relative;
+    top: 70px;
+}
+.author {
+    display: flex;
+}
+.author img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.nameDate {
+    margin-left: 15px;
+}
+.name {
+    font-weight: 400;
+    font-size: 16px;
+}
+.date {
+    font-weight: 200;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.share {
+    margin-left: 90px;
+    margin-top: 10px;
+}
