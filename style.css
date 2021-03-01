@@ -8,7 +8,7 @@ h1, h2, h3 {
 }
 
 body {
-    background-color: hsl(217, 19%, 35%);
+    background-color: hsl(212, 23%, 69%);
     font-family: 'Manrope', sans-serif;
 }
 
@@ -93,6 +93,32 @@ body {
 .share {
     margin-left: 90px;
     margin-top: 10px;
+
+    background-color: hsl(210, 46%, 95%);
+    height: 30px;
+    width: 30px;
+
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active {
+    
+    position: absolute;
+    top:-50px;
+    left: 280px;
+    
+    background-color:hsl(217, 19%, 35%);
+    border-radius: 16px;
+    height: 50px;
+    width: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
 }
 
 @media screen and (min-width: 900px) {
@@ -125,6 +151,7 @@ body {
         transform: scale(1.1);
     
         transition: transform 400ms;
+        
     }
     .thumbnail img:hover{
         transform: scale(1);
