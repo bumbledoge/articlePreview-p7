@@ -26,6 +26,9 @@ body {
 
 }
 
+button:focus {
+    outline: none;
+}
 /* ////////////////THUMBNAIL///////////////   */
 .thumbnail {
     position: relative;
@@ -79,6 +82,7 @@ body {
 }
 .nameDate {
     margin-left: 15px;
+    
 }
 .name {
     font-weight: 400;
@@ -108,7 +112,7 @@ body {
     
     position: absolute;
     top:-50px;
-    left: 280px;
+    left: 200px;
     
     background-color:hsl(217, 19%, 35%);
     border-radius: 16px;
@@ -138,9 +142,14 @@ body {
         top: 30px;
     }
     .share {
-        margin-left: 190px;
+        margin-left: 100px;
         margin-top: 10px;
     }
+    .active {
+        top: -50px;
+        left: 280px;
+    }
+
     
     .thumbnail {
         top: 0px;

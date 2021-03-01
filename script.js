@@ -6,9 +6,8 @@ let sher = document.querySelector('.sher');
 function clicked() {
     
     let val = active.style.opacity;
-    console.log(val);
 
-    if(val === 1) {
+    if(val == 1) {
         active.style.opacity = '0';
     }
     else {
